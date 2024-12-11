@@ -20,6 +20,7 @@ enum Source {
 
 
 pub fn process_files() -> () {
+    println!("running");
     // converts first argument into a csv (same name, silently overrides
     // if the file already exists
     let file_productos = "BPC_Productos (1).xlsx";
